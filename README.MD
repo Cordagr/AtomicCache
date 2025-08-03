@@ -20,38 +20,34 @@ Implementation Mechanisms:
 ## Code Usage
 
 ## Basic Usage
-<pre lang="markdown"> csharp
+``` csharp
 // Initialize the cache with a max of 100 items and 60-second expiration
 var cache = new AtomicCache<string, string>(maxSize: 100, expirationIntervalInSeconds: 60);
-</pre>
 
 ## Adding Items 
-<pre lang ="markdown">
+``` csharp
 <cache.Add("username", "will123");
-``` </pre>
 
 ## Retrieving Items
-<pre lang="markdown">
+``` csharp
 if (cache.TryGetValue("username", out var name))
 {
     Console.WriteLine($"Found: {name}");
 }
-``` </pre>
+
 
 ## Removing Items
-<pre lang="markdown"> 
+``` csharp
 cache.Remove("username");
-``` </pre>
+
 
 ## Restoring from Snapshot
-<pre lang="markdown"> 
+``` charp
 snapshotManager.RestoreSnapshot(cache.InternalCache);
-``` </pre>
 
 ## Clearing Cache
-<pre lang="markdown"> ```csharp
+```csharp
 cache.Clear();
-``` </pre>
 
 
 ## The current implemented policies work as follow
