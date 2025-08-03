@@ -7,8 +7,6 @@ Implementation Mechanisms:
 -  Persistent disk storage (JSON formatted will support other formats in the future)
 -  Supports multiple eviction strategies such as LFU,LRU,FIFO
 
-## Example Usage
-
 # Installation
 1. git clone https://github.com/Cordagr/AtomicProject
 2. Build the project using .NET cli (dotnet build)
