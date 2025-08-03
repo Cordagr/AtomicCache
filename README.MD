@@ -20,10 +20,10 @@ Implementation Mechanisms:
 ## Code Usage
 
 ## Basic Usage
-<pre lang="markdown"> 
+<pre lang="markdown"> csharp
 // Initialize the cache with a max of 100 items and 60-second expiration
 var cache = new AtomicCache<string, string>(maxSize: 100, expirationIntervalInSeconds: 60);
-``` </pre>
+</pre>
 
 ## Adding Items 
 <pre lang ="markdown">
