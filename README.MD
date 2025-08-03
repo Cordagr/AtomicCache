@@ -54,7 +54,7 @@ cache.Clear();
 ``` </pre>
 
 
-### The current implemented policies work as follow
+## The current implemented policies work as follow
 | Replacement Policy | Defined in file           | Description                                                                |
 | :----------------- | :------------------------ | :------------------------------------------------------------------------- |
 | `Policy::FIFO`     | [`Cache/Policy/FIFO.h`]   | Works like a queue: the first element in is the first element out.         |
