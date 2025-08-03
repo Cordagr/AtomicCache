@@ -23,10 +23,12 @@ Implementation Mechanisms:
 ``` csharp
 // Initialize the cache with a max of 100 items and 60-second expiration
 var cache = new AtomicCache<string, string>(maxSize: 100, expirationIntervalInSeconds: 60);
+```
 
 ## Adding Items 
 ``` csharp
 <cache.Add("username", "will123");
+```
 
 ## Retrieving Items
 ``` csharp
@@ -34,21 +36,22 @@ if (cache.TryGetValue("username", out var name))
 {
     Console.WriteLine($"Found: {name}");
 }
-
+```
 
 ## Removing Items
 ``` csharp
 cache.Remove("username");
-
+```
 
 ## Restoring from Snapshot
 ``` charp
 snapshotManager.RestoreSnapshot(cache.InternalCache);
+```
 
 ## Clearing Cache
 ```csharp
 cache.Clear();
-
+```
 
 ## The current implemented policies work as follow
 | Replacement Policy | Defined in file           | Description                                                                |
