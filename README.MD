@@ -20,18 +20,18 @@ Implementation Mechanisms:
 ## Code Usage
 
 ## Basic Usage
-<pre lang="markdown"> ```csharp  
+<pre lang="markdown"> 
 // Initialize the cache with a max of 100 items and 60-second expiration
 var cache = new AtomicCache<string, string>(maxSize: 100, expirationIntervalInSeconds: 60);
 ``` </pre>
 
 ## Adding Items 
-<pre lang ="markdown"> ```csharp
+<pre lang ="markdown">
 <cache.Add("username", "will123");
 ``` </pre>
 
 ## Retrieving Items
-<pre lang="markdown"> ```csharp
+<pre lang="markdown">
 if (cache.TryGetValue("username", out var name))
 {
     Console.WriteLine($"Found: {name}");
@@ -39,12 +39,12 @@ if (cache.TryGetValue("username", out var name))
 ``` </pre>
 
 ## Removing Items
-<pre lang="markdown"> ```csharp
+<pre lang="markdown"> 
 cache.Remove("username");
 ``` </pre>
 
 ## Restoring from Snapshot
-<pre lang="markdown"> ```csharp
+<pre lang="markdown"> 
 snapshotManager.RestoreSnapshot(cache.InternalCache);
 ``` </pre>
 
