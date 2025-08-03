@@ -1,0 +1,12 @@
+C:\Users\shirl\Desktop\AtomicProject\bin\Debug\net9.0\AtomicProject.exe
+C:\Users\shirl\Desktop\AtomicProject\bin\Debug\net9.0\AtomicProject.deps.json
+C:\Users\shirl\Desktop\AtomicProject\bin\Debug\net9.0\AtomicProject.runtimeconfig.json
+C:\Users\shirl\Desktop\AtomicProject\bin\Debug\net9.0\AtomicProject.dll
+C:\Users\shirl\Desktop\AtomicProject\bin\Debug\net9.0\AtomicProject.pdb
+C:\Users\shirl\Desktop\AtomicProject\obj\Debug\net9.0\AtomicProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shirl\Desktop\AtomicProject\obj\Debug\net9.0\AtomicProject.csproj.CoreCompileInputs.cache
+C:\Users\shirl\Desktop\AtomicProject\obj\Debug\net9.0\AtomicProject.dll
+C:\Users\shirl\Desktop\AtomicProject\obj\Debug\net9.0\refint\AtomicProject.dll
+C:\Users\shirl\Desktop\AtomicProject\obj\Debug\net9.0\AtomicProject.pdb
+C:\Users\shirl\Desktop\AtomicProject\obj\Debug\net9.0\AtomicProject.genruntimeconfig.cache
+C:\Users\shirl\Desktop\AtomicProject\obj\Debug\net9.0\ref\AtomicProject.dll

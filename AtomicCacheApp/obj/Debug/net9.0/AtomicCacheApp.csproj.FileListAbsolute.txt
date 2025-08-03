@@ -1,0 +1,2 @@
+C:\Users\shirl\Desktop\AtomicProject\AtomicCacheApp\obj\Debug\net9.0\AtomicCacheApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shirl\Desktop\AtomicProject\AtomicCacheApp\obj\Debug\net9.0\AtomicCacheApp.csproj.CoreCompileInputs.cache
