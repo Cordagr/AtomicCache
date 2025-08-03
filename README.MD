@@ -2,10 +2,10 @@
 Atomic Cache is a generic caching implementation which currently does not support threads but will in the future made in C# the following are supported. (Packaging in the future will also be added)
 
 Implementation Mechanisms:
-- ** Automatic Expiration and Removal for cached items through time mechanisms or cache size exceeding 
-- ** Snapshot and restoration functionalities
-- ** Persistent disk storage (JSON formatted will support other formats in the future)
-- ** Supports multiple eviction strategies such as LFU,LRU,FIFO
+-  Automatic Expiration and Removal for cached items through time mechanisms or cache size exceeding 
+-  Snapshot and restoration functionalities
+-  Persistent disk storage (JSON formatted will support other formats in the future)
+-  Supports multiple eviction strategies such as LFU,LRU,FIFO
 
 ## Example Usage
 
