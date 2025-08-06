@@ -51,6 +51,11 @@ snapshotManager.RestoreSnapshot(cache.InternalCache);
 cache.Clear();
 ```
 
+## Setting Built-in eviction policies
+```csharp
+cacheConfigManager.SetCacheEvictionPolicy(EvictionPolicy.FIFO); # Replace FIFO with any strategies listed below 
+```
+
 ## The current implemented policies work as follow
 | Replacement Policy | Defined in file           | Description                                                                |
 | :----------------- | :------------------------ | :------------------------------------------------------------------------- |
